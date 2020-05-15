@@ -1,0 +1,25 @@
+{
+  "name": "toy-http-server",
+  "version": "1.0.0",
+  "description": "一个基于nodejs的HTTP服务器玩具",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laoboxie/toy-http-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laoboxie/toy-http-server/issues"
+  },
+  "homepage": "https://github.com/laoboxie/toy-http-server#readme",
+  "dependencies": {
+    "koa": "^2.11.0"
+  }
+}
