@@ -14,7 +14,7 @@ class app {
   }
 
   use(middleware) {
-    this.middlewares.push(middleware);
+    middleware && this.middlewares.push(middleware);
     return this;
   }
 
